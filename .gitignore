@@ -160,3 +160,28 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Cricket Batting Analysis - Project Specific
+# Output directories
+analysis_output/
+visualizations/
+processed/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Data files
+*.csv
+*.pkl
+*.h5
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
